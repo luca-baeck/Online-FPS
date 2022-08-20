@@ -1,6 +1,6 @@
 <h1 align="center">Online FPS</h1>
 
-<span style="color:red" align="center">Wichtig: Projektdateien sind leider unvollständig.</span>
+<p align="center">Wichtig: Projektdateien sind leider unvollständig.</p>
 
 <p align="center">Ein Multiplayerspiel, das erlaubt in Echtzeit mit seinen Freunden zu spielen. Alle Spielstände und Matchstatistiken werden in der Datenbank gesichert.</p>
 
