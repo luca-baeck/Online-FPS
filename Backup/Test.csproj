@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Luca\Unity\CryOfWar_Win\CryOfWar_Data\Managed\Assembly-CSharp.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA69A923-182E-43D5-9BAB-0FAAD45C31E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FullSerializer">
+      <HintPath>lib\FullSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>lib\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonRealtime">
+      <HintPath>lib\PhotonRealtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>lib\PhotonUnityNetworking.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice">
+      <HintPath>lib\PhotonVoice.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice.API">
+      <HintPath>lib\PhotonVoice.API.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice.PUN">
+      <HintPath>lib\PhotonVoice.PUN.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFab">
+      <HintPath>lib\PlayFab.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>lib\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>lib\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>lib\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>lib\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>lib\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>lib\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>lib\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>lib\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>lib\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DecalDestroyer.cs" />
+    <Compile Include="ExtinguishableFire.cs" />
+    <Compile Include="GunAim.cs" />
+    <Compile Include="GunShoot.cs" />
+    <Compile Include="ParticleCollision.cs" />
+    <Compile Include="ParticleExamples.cs" />
+    <Compile Include="ParticleMenu.cs" />
+    <Compile Include="Readme.cs" />
+    <Compile Include="ChangeColor.cs" />
+    <Compile Include="ChangeName.cs" />
+    <Compile Include="PointersController.cs" />
+    <Compile Include="ProximityVoiceTrigger.cs" />
+    <Compile Include="MouseLookHelper.cs" />
+    <Compile Include="SoundsForJoinAndLeave.cs" />
+    <Compile Include="Bestenliste.cs" />
+    <Compile Include="DamageText.cs" />
+    <Compile Include="DeathCam.cs" />
+    <Compile Include="EndSceneRank.cs" />
+    <Compile Include="ExplosionDestroy.cs" />
+    <Compile Include="GameJoined.cs" />
+    <Compile Include="GetBinds.cs" />
+    <Compile Include="Granate.cs" />
+    <Compile Include="GranateReload.cs" />
+    <Compile Include="Gun.cs" />
+    <Compile Include="GunInfo.cs" />
+    <Compile Include="Healthbar.cs" />
+    <Compile Include="IDamageable.cs" />
+    <Compile Include="Intro.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemInfo.cs" />
+    <Compile Include="KillText.cs" />
+    <Compile Include="KillsAndDeaths.cs" />
+    <Compile Include="LeaderboardPlayerScript.cs" />
+    <Compile Include="LobbyScript.cs" />
+    <Compile Include="Mapvote.cs" />
+    <Compile Include="MusicManager.cs" />
+    <Compile Include="OutfitStrore.cs" />
+    <Compile Include="Overview.cs" />
+    <Compile Include="OverviewEnable.cs" />
+    <Compile Include="PlayFab_Log.cs" />
+    <Compile Include="PlayFab_Stats.cs" />
+    <Compile Include="PlayerController.cs" />
+    <Compile Include="PlayerGroundCheck.cs" />
+    <Compile Include="PlayerInfo.cs" />
+    <Compile Include="PlayerListingsMenu.cs" />
+    <Compile Include="PlayerManager.cs" />
+    <Compile Include="PlayerStatsItem.cs" />
+    <Compile Include="Playerlisting.cs" />
+    <Compile Include="ProjektilMove.cs" />
+    <Compile Include="Reload.cs" />
+    <Compile Include="Respawn.cs" />
+    <Compile Include="RoomManager.cs" />
+    <Compile Include="SaveStats.cs" />
+    <Compile Include="SettingsLobby.cs" />
+    <Compile Include="ShopManager.cs" />
+    <Compile Include="SingleShot.cs" />
+    <Compile Include="SpawnManager.cs" />
+    <Compile Include="Spawnpoint.cs" />
+    <Compile Include="SpindItemInfo.cs" />
+    <Compile Include="SpindManager.cs" />
+    <Compile Include="Splash.cs" />
+    <Compile Include="Splash1.cs" />
+    <Compile Include="StoreItemInfo.cs" />
+    <Compile Include="TimerRoom.cs" />
+    <Compile Include="TäglicherShop.cs" />
+    <Compile Include="UI_Game.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\BackgroundMusicController.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\SidebarToggle.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\UiExtensions.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\DemoVoiceUI\CodecSettingsUI.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\DemoVoiceUI\DemoVoiceUI.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\DemoVoiceUI\MicRef.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\DemoVoiceUI\MicrophoneDropdownFiller.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\DemoVoiceUI\PhotonDemoExtensions.cs" />
+    <Compile Include="Photon\Voice\Unity\Demos\DemoVoiceUI\RemoteSpeakerUI.cs" />
+    <Compile Include="Photon\Realtime\Demo\ConnectAndJoinRandomLb.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\BaseController.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\BetterToggle.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\ChangePOV.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\CharacterInstantiation.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\FirstPersonController.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\Highlighter.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\OrthographicController.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\ThirdPersonController.cs" />
+    <Compile Include="ExitGames\Demos\DemoPunVoice\VoiceDemoUI.cs" />
+    <Compile Include="UB\Simple2dWeatherEffects\Standard\D2FogsNoiseTexPE.cs" />
+    <Compile Include="UB\Simple2dWeatherEffects\Standard\D2FogsPE.cs" />
+    <Compile Include="UB\Simple2dWeatherEffects\Standard\EffectBase.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\AxisTouchButton.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\ButtonHandler.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\CrossPlatformInputManager.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\InputAxisScrollbar.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\Joystick.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\MobileControlRig.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\TouchPad.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\VirtualInput.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="UnityStandardAssets\CrossPlatformInput\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="BayatGames\SaveGameFree\SaveGamePath.cs" />
+    <Compile Include="BayatGames\SaveGameFree\SaveGame.cs" />
+    <Compile Include="BayatGames\SaveGameFree\SaveGameAuto.cs" />
+    <Compile Include="BayatGames\SaveGameFree\SaveGameWeb.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Types\Color32Save.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Types\ColorSave.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Types\MeshSave.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Types\QuaternionSave.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Types\Vector2Save.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Types\Vector3Save.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Types\Vector4Save.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Serializers\ISaveGameSerializer.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Serializers\SaveGameBinarySerializer.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Serializers\SaveGameJsonSerializer.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Serializers\SaveGameXmlSerializer.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Encoders\ISaveGameEncoder.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Encoders\SaveGameSimpleEncoder.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\ExampleMoveObject.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\ExampleSaveCustom.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\StorageSG.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\ExampleSavePosition.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\ExampleSaveRotation.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\ExampleSaveScale.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\ExampleSaveWeb.cs" />
+    <Compile Include="BayatGames\SaveGameFree\Examples\SerializerDropdown.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
