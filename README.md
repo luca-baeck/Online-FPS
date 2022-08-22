@@ -9,7 +9,7 @@
 
 - [Repository](https://github.com/luca-baeck/Online-FPS "Online FPS Repository")
 
-- [Bugs](https://github.com/Rohit19060/Online-FPS/issues "Issues Page")
+- [Bugs](https://github.com/luca-baeck/Online-FPS/issues "Issues Page")
 
 
 ## Screenshots
