@@ -18,7 +18,6 @@
 ![Screenshot](/application-preview/map1.jpg "Screenshot")
 ![Screenshot](/application-preview/map2.jpg "Screenshot")
 ![Screenshot](/application-preview/loading.jpg "Screenshot")
-![Screenshot](/application-preview/reload.jpg "Screenshot")
 ![Screenshot](/application-preview/filledregister.jpg "Screenshot")
 ![Screenshot](/application-preview/failedregister1.jpg "Screenshot")
 ![Screenshot](/application-preview/failedregister2.jpg "Screenshot")
